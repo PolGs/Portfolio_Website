@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">+
+    <link rel="stylesheet" href="css/style.css"S>
 
   <!-- Theme Style -->
   <link rel="stylesheet" href="css/style.css">
@@ -70,18 +71,17 @@
     </nav>
   </header>
   <!-- END header -->
-
-  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
-    style="background-image: url('images/code.jpg');">
+  <div id="landing" class="slider-item overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/code.jpg');">
+    >
     <div class="container">
       <div class="row slider-text align-items-center justify-content-center">
-        <div class="col-lg-12 text-center col-sm-12">
-          <p data-aos="fade-up" data-aos="fade-up" data-aos-delay="">Hello, I'm Pol Galvez.</p>
-          <h1 class="mb-4" data-aos="fade-up" data-aos-delay="100">I am a Software Developer.</h1>
-          <div class="btn-play-wrap mx-auto" data-aos="fade-up" data-aos-delay="200">
+        <div class="pol col-lg-12 text-center col-sm-12 maintxt">
+          <p class=" data-aostitle" data-aos="fade-up" data-aos-delay="" >Hello, I'm Pol Galvez.</p>
+          <h1 class="pol mb-4" data-aos="fade-up" data-aos-delay="100">I am a Developer.</h1>
+         <!-- <div class="btn-play-wrap mx-auto" data-aos="fade-up" data-aos-delay="200">
             <a href="https://youtu.be/rvc5mRATQ7c?t=7" data-fancybox data-ratio="2"
                 class="btn-play"><span class="ion ion-ios-play"></span></a>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -96,8 +96,8 @@
     <div class="container">
       <div class="row mb-5 justify-content-center" data-aos="fade-up">
         <div class="col-md-8 text-center">
-          <h2 class="mb-4 section-title">My Latest Work</h2>
-          <p>Lately I have been focusing on Web and Mobile UI design with Adobe XD as well as development using Android Studio and Visual Studio</p>
+          <h2 class="title">My Latest Work</h2>
+          <p class="subtitle">Lately I have been focusing on Web and Mobile UI design with Adobe XD as well as development using Android Studio and Visual Studio</p>
           <p><a href="portfolio.html">View All My Projects</a></p>
         </div>
       </div>
@@ -148,7 +148,7 @@
       
       <div class="row mt-5">
         <div class="col-12 text-center">
-          <p><a href="portfolio.html" class="btn btn-outline-white px-4 py-3">More Projects</a></p>
+          <p><a href="portfolio.html" class="btn btn-outline-black px-4 py-3">More Projects</a></p>
         </div>
       </div>
     </div>
@@ -158,11 +158,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 ml-auto mb-5 order-2">
-          <span class="d-block text-uppercase text-primary">Who We Are</span>
-          <h2 class="mb-4 section-title">Do Things That Matters</h2>
-          <p>We are a company focused on Software Development and Media Design. We have specialized employees for each step in the development of software, from UI/UX Design to Testing through Implementation </p>
-          <p class="mb-5">Working collaboratively, we will take the time to talk to you about the things you need want and like. We are always here advising you on how things will work on a visual and functional level. </p>
-          <p><a href="about.html" class="btn btn-outline-black">Learn More</a></p>
+          <span class="d-block text-uppercase text-primary">Do Things That Matters</span>
+          <h2 class="title mb-4 section-title">Who We Are</h2>
+          <p class="subtitle">We are a company focused on Software Development and Graphic Design. We have specialized employees for each step in the development of software, from UI/UX Design to Testing through Implementation </p>
+          <p class="subtitle">Working collaboratively, we will take the time to talk to you about the things you need want and like. We are always here advising you on how things will work on a visual and functional level.<br><br>We also offer teaching in phisics, mathematics, robotics, english and others(Ask Me!)<br><br> </p>
+          <p><a href="about.html" class="button btn btn-outline-black" >Learn More</a></p>
         </div>
         <div class="col-lg-6 order-1">
           <figure class="img-dotted-bg">
@@ -204,7 +204,7 @@
         <div class="col-lg-3 mb-4">
           <div class="service" data-aos="fade-up" data-aos-delay="300">
             <span class="icon icon-magnifier mb-4 d-block"></span>
-            <h3>Media Design</h3>
+            <h3>Graphic Design</h3>
             <p>We also count on a team of amazing designers wo will design and/or animate any logo, flyer, banner, poster, add you need</p>
           </div>
         </div>
@@ -392,6 +392,8 @@
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/myscript.js"></script>
+   <script src="js/myscript2.js"></script> 
 </body>
 
 </html>
