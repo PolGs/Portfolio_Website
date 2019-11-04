@@ -19,7 +19,7 @@ body{
 
 
 .title{	
-	font-size: 60px;
+	font-size: 50px;
 	font-family: "Muli", sans-serif;
 	font-weight: 	130;
 }
@@ -37,3 +37,7 @@ body{
 }
 
 canvas{display:none;}
+
+.iconsss{
+	background-image: "images/graphic.design.svg"
+}
