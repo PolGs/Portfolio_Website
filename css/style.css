@@ -7,7 +7,7 @@
 /*# sourceMappingURL=style.css.map */
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-body{  
+body{
   margin: 0;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
 }
 
 
-.title{	
+.title{
 	font-size: 50px;
 	font-family: "Muli", sans-serif;
 	font-weight: 	130;
@@ -40,4 +40,45 @@ canvas{display:none;}
 
 .iconsss{
 	background-image: "images/graphic.design.svg"
+}
+
+.BUTTON_YXE {
+   background: #AAAF00;
+   background-image: -webkit-linear-gradient(top, #AAAF00, #D0BD1E);
+   background-image: -moz-linear-gradient(top, #AAAF00, #D0BD1E);
+   background-image: -ms-linear-gradient(top, #AAAF00, #D0BD1E);
+   background-image: -o-linear-gradient(top, #AAAF00, #D0BD1E);
+   background-image: -webkit-gradient(to bottom, #AAAF00, #D0BD1E);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   width: 214px;
+   font-size: 32px;
+   font-weight: 300;
+   padding: 25px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_YXE:hover {
+   border: solid #1E1900 1px;
+   background: #373C00;
+   background-image: -webkit-linear-gradient(top, #373C00, #2E2D00);
+   background-image: -moz-linear-gradient(top, #373C00, #2E2D00);
+   background-image: -ms-linear-gradient(top, #373C00, #2E2D00);
+   background-image: -o-linear-gradient(top, #373C00, #2E2D00);
+   background-image: -webkit-gradient(to bottom, #373C00, #2E2D00);
+   -webkit-border-radius: 33px;
+   -moz-border-radius: 33px;
+   border-radius: 33px;
+   text-decoration: none;
 }
